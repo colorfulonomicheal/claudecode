@@ -1,19 +1,35 @@
 {
+  "projectName": "Colorful Coffee - プロジェクト初期設定テンプレート",
+  "projectDescription": "Claude Code AIエージェント環境のテンプレートプロジェクト",
+  "repository": {
+    "url": "https://github.com/colorfulonomicheal/colorfu-Agent.git",
+    "branch": "claude/init-project-setup-oTod0"
+  },
+  "agents": {
+    "enabled": true,
+    "autoDiscovery": true
+  },
   "permissions": {
     "allow": [
       "Bash(npm test)",
       "Bash(npm run lint)",
       "Bash(npm run build)",
+      "Bash(npm install)",
       "Bash(git status)",
       "Bash(git diff)",
       "Bash(git log)",
+      "Bash(git fetch)",
       "Read",
+      "Write",
+      "Edit",
       "Glob",
-      "Grep"
+      "Grep",
+      "FileSearch"
     ],
     "deny": [
       "Bash(rm -rf)",
-      "Bash(sudo)"
+      "Bash(sudo)",
+      "Bash(git push --force)"
     ]
   },
   "hooks": {
