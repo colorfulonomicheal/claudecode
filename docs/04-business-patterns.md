@@ -149,6 +149,27 @@ claude "以下の手順で新機能を実装してください：
 
 ---
 
+## パターン9: マーケティングチーム連携（Colorful Coffee）
+
+### 概要
+複数の専門エージェント（ストラテジスト、クリエイティブ、デジタル、メディア）を連携させて、統合マーケティングプランを策定。
+
+### 使い方
+```bash
+# 統合キャンペーンプランニング
+claude "以下のエージェントを順番に使って、
+       Colorful Coffeeの新商品キャンペーンを企画して：
+       1. marketing-strategist: 全体戦略とKPI設計
+       2. creative-director: クリエイティブブリーフ作成
+       3. digital-marketer: SNS・Web広告施策
+       4. media-planner: メディアプランと予算配分"
+```
+
+### 関連ドキュメント
+- 詳細: `docs/05-colorful-coffee-marketing.md`
+
+---
+
 ## コスト最適化のヒント
 
 | タスク | 推奨モデル | 理由 |
